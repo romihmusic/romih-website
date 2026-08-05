@@ -1,0 +1,49 @@
+ROMIH 웹사이트 업데이트 가이드
+
+1. GitHub에 처음 올릴 때
+- index.html
+- content 폴더
+- images 폴더
+위 세 가지를 저장소 최상단에 함께 업로드하세요.
+
+2. 문구와 SNS 링크 수정
+content/site.js의 profile 부분만 수정하세요.
+
+3. 이전 공연 추가
+content/site.js의 shows: [] 안에 아래 예시를 쉼표로 구분해 추가하세요.
+
+{
+  title: "공연명",
+  venue: "장소명",
+  city: "Portland, OR",
+  mood: "chain",
+  photos: ["images/새사진.jpg"],
+  media: [
+    { label: "SoundCloud", url: "https://..." },
+    { label: "YouTube", url: "https://..." }
+  ]
+}
+
+mood는 "chain" 또는 "bow" 중 하나를 사용하세요.
+사진이나 미디어가 아직 없으면 photos: [], media: []로 두면 됩니다.
+
+4. 예정 공연 추가
+content/site.js의 upcoming: [] 안에 아래 예시를 추가하세요.
+
+{
+  day: "14",
+  mon: "Sep",
+  venue: "Venue Name",
+  city: "Portland, OR",
+  url: "https://티켓주소"
+}
+
+5. 사진 추가
+- 새 사진을 images 폴더에 넣으세요.
+- 파일명은 영문 소문자, 숫자, 하이픈만 권장합니다.
+  예: holocene-2026-08.jpg
+- content/site.js에서 같은 경로를 입력하세요.
+
+6. 자료가 없을 때
+- shows 또는 upcoming이 비어 있으면 해당 섹션에 준비 중 안내가 표시됩니다.
+- 나중에 자료를 한 개씩 추가해도 카드 구조가 자동으로 맞춰집니다.
