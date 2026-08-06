@@ -71,6 +71,15 @@ nav img{ height: 34px; width: auto; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5)
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
+
+@media (max-width: 640px){
+  .photo-strip{
+    height: 46vh;
+    min-height: 260px;
+    max-height: 420px;
+  }
+}
+
 .photo-strip::-webkit-scrollbar{ display: none; }
 .photo-strip img{
   height: 100%;
