@@ -23,10 +23,10 @@
    Just replace the "#" with your real links. The email one is
    already set to open a message to romihmusic@gmail.com. */
 const SOCIAL_LINKS = {
-  instagram: "#",
-  soundcloud: "#",
-  youtube: "#",
-  collective: "#",
+  instagram: "https://www.instagram.com/romihmusic/",
+  soundcloud: "https://soundcloud.com/romihmusic",
+  youtube: "https://www.youtube.com/@Romihmusic",
+  collective: "https://www.usbcheck.co/",
   email: "mailto:romihmusic@gmail.com",
 };
 
