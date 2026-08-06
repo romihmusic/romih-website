@@ -143,7 +143,7 @@ nav img{ height: 34px; width: auto; filter: drop-shadow(0 0 10px rgba(0,0,0,0.5)
 .social-icon:hover{ transform: translateY(-2px); border-color: var(--pink); background: rgba(255,126,203,0.14); color: var(--pink); }
 .social-icon:focus-visible{ outline: 2px solid var(--pink); outline-offset: 2px; }
 
-.duality{ margin-top: 14px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
+.duality{ margin-top: 46px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .duality-label{ font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: var(--white-dim); }
 .toggle{
   position: relative; width: 132px; height: 56px; border-radius: 999px;
@@ -170,7 +170,7 @@ section{ position: relative; z-index: 1; }
 .section-heading{ text-align: center; padding: 0 20px; margin-bottom: 30px; }
 .section-heading h2{ font-size: 26px; font-weight: 500; }
 
-.shows-section{ padding: 72px 20px 20px; max-width: 920px; margin: 0 auto; }
+.shows-section{ padding: 24px 20px 20px; max-width: 920px; margin: 0 auto; }
 .show-grid{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
