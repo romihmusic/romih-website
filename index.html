@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ROMIH</title>
+<link rel="icon" href="images/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Caveat:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="mood-wash"></div>
+
+  <nav>
+    <img src="images/logo.png" alt="Romih logo">
+  </nav>
+
+  <section class="hero">
+    <div class="photo-strip-wrap">
+      <div class="photo-strip" id="photoStrip"></div>
+      <div class="strip-tint"></div>
+      <div class="fade-edge left"></div>
+      <div class="fade-edge right"></div>
+      <div class="strip-bottom-fade"></div>
+      <div class="strip-dots" id="stripDots"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="eyebrow">DJ &middot; STORYTELLER</p>
+      <p class="tagline">Not stuck to <span class="accent">one</span> genre.<br>Every set is a different story.</p>
+
+      <div class="social-row">
+        <a class="social-icon" id="linkInstagram" href="#" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg>
+        </a>
+        <a class="social-icon" id="linkSoundcloud" href="#" target="_blank" rel="noopener" aria-label="SoundCloud">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M3 15v3"/><path d="M6.5 12.5v5.5"/><path d="M10 10v8"/><path d="M13.5 8v10"/><path d="M17 11v7"/><path d="M20.5 13v5"/></svg>
+        </a>
+        <a class="social-icon" id="linkCollective" href="#" target="_blank" rel="noopener" aria-label="Collective">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="12" r="5"/><circle cx="15" cy="12" r="5"/></svg>
+        </a>
+      </div>
+
+      <div class="duality">
+        <p class="duality-label">Pick a feel</p>
+        <button class="toggle" id="dualityToggle" aria-pressed="false" aria-label="Toggle between chain and bow shows">
+          <span class="toggle-icon chain">⛓️</span>
+          <span class="toggle-icon bow">🎀</span>
+          <div class="toggle-knob" id="toggleKnob"></div>
+        </button>
+        <p class="duality-caption" id="dualityCaption">Showing chain nights.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SHOW ARCHIVE (filtered by toggle) -->
+  <section class="shows-section">
+    <div class="section-heading">
+      <p class="eyebrow">THE SETS</p>
+      <h2>Every night, a <span class="script">different</span> one</h2>
+    </div>
+    <div class="show-grid" id="showGrid"></div>
+  </section>
+
+  <!-- UPCOMING SHOWS (not filtered — always chronological) -->
+  <section class="upcoming-section">
+    <div class="section-heading">
+      <p class="eyebrow">UPCOMING</p>
+      <h2>Catch the <span class="script">next</span> one</h2>
+    </div>
+    <ul class="upcoming-list" id="upcomingList"></ul>
+  </section>
+
+  <footer>© ROMIH — ALL RIGHTS RESERVED</footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">✕</button>
+    <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Previous photo">‹</button>
+    <img id="lightboxImg" src="" alt="">
+    <button class="lightbox-nav next" id="lightboxNext" aria-label="Next photo">›</button>
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
