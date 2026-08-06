@@ -73,8 +73,8 @@ const HERO_PHOTOS = [
                    or leave the list empty: media: [] ) */
 const SHOWS = [
   {
-    title: "Placeholder Club Night",
-    venue: "Venue Name",
+    title: "Placeholder",
+    venue: "Wonderlove",
     city: "Portland, OR",
     mood: "chain",
     photos: ["images/shows/placeholder-club-night/cover.jpg"],
@@ -101,6 +101,7 @@ const SHOWS = [
    entries freely — day/mon are just the date shown in the little
    date box (e.g. day: "14", mon: "Sep"). */
 const UPCOMING = [
-  { day: "14", mon: "Sep", venue: "Venue Name", city: "Portland, OR", url: "#" },
-  { day: "02", mon: "Oct", venue: "Venue Name", city: "Seattle, WA", url: "#" },
+  { day: "15", mon: "Aug", venue: "FLUX @ Wonderlove", city: "Portland, OR", url: "https://www.eventbrite.com/e/babsy-wonderlove-flux-open-air-party-tickets-1996503755477" },
+  { day: "21", mon: "Aug", venue: "Why Not Campout", city: "Portland, OR", url: "https://www.whynotcampout.com/" },
+   { day: "28", mon: "Aug", venue: "Dollhouse @ Secret Grove", city: "Portland, OR", url: "#" },
 ];
