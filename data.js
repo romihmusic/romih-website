@@ -73,25 +73,48 @@ const HERO_PHOTOS = [
                    or leave the list empty: media: [] ) */
 const SHOWS = [
   {
-    title: "Placeholder",
-    venue: "Wonderlove",
+    title: "Sweeter Days Radio",
+    venue: "Better Days",
     city: "Portland, OR",
-    mood: "chain",
-    photos: ["images/shows/placeholder-club-night/cover.jpg"],
+    mood: "bow",
+    photos: ["images/shows/sweeter-days-radio/cover.jpg"],
     media: [
-      { label: "SoundCloud", url: "#" },
+      { label: "YouTube", url: "https://youtu.be/9TY_Y5FzZR0?si=m6xnwDLsVXFcYtNY" },
     ],
   },
   {
-    title: "Placeholder Rooftop Set",
-    venue: "Venue Name",
+    title: "DJ Mandy Support",
+    venue: "45 East",
     city: "Portland, OR",
     mood: "bow",
-    photos: ["images/shows/placeholder-rooftop-set/cover.jpg"],
+    photos: ["images/shows/dj-mandy-support/cover.jpg"],
     media: [
-      { label: "YouTube", url: "#" },
-      { label: "SoundCloud", url: "#" },
+      { label: "SoundCloud", url: "https://soundcloud.com/romihmusic/bounce-feels-like-us-dj-mandy-support-45-east-2025" },
     ],
+  },
+  {
+    title: "Cassian Support",
+    venue: "REALM",
+    city: "Portland, OR",
+    mood: "bow",
+    photos: ["images/shows/cassian-support/cover.jpg"],
+    media: [],
+  },
+  {
+    title: "KSHMR Support",
+    venue: "45 East",
+    city: "Portland, OR",
+    mood: "bow",
+    photos: ["images/shows/kshmr-support/cover.jpg"],
+    media: [],
+  },
+  {
+    title: "Sweet Girl's Club",
+    venue: "Brooklyn Carretta",
+    city: "Portland, OR",
+    mood: "bow",
+    photos: ["images/shows/sweet-girls-club/cover.jpg"],
+    media: [],
   },
 ];
 
