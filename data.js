@@ -116,6 +116,52 @@ const SHOWS = [
     photos: ["images/shows/sweet-girls-club/cover.jpg"],
     media: [],
   },
+   {
+    title: "Lotus: A High Speed Event",
+    venue: "Wonderlove",
+    city: "Portland, OR",
+    mood: "chain",
+    photos: ["images/shows/lotus-high-speed-event/cover.jpg"],
+    media: [
+      { label: "YouTube", url: "https://youtu.be/Dw81X5UWCsM?si=1-PwzrRGJonzH8Fc" },
+    ],
+  },
+  {
+    title: "No Wrong Moves - Halloween",
+    venue: "REALM",
+    city: "Portland, OR",
+    mood: "chain",
+    photos: ["images/shows/no-wrong-moves-halloween/cover.jpg"],
+    media: [
+      { label: "SoundCloud", url: "https://soundcloud.com/romihmusic/no-wrong-moves-halloween-edition-realm-2025" },
+    ],
+  },
+  {
+    title: "JOSHWA, ero808 Support - Valentine's Day (Romih b2b CHILLS)",
+    venue: "REALM",
+    city: "Portland, OR",
+    mood: "chain",
+    photos: ["images/shows/joshwa-ero808-valentines-day/cover.jpg"],
+    media: [
+      { label: "YouTube", url: "https://youtu.be/QqFRMcjR6ug?si=d5yb_nunS6tbUbvG" },
+    ],
+  },
+  {
+    title: "Rave on a Plane",
+    venue: "Airplane Home",
+    city: "Hillsboro, OR",
+    mood: "chain",
+    photos: ["images/shows/rave-on-a-plane/cover.jpg"],
+    media: [],
+  },
+  {
+    title: "Taurus Party - Birthday Set",
+    venue: "Wonderlove",
+    city: "Portland, OR",
+    mood: "chain",
+    photos: ["images/shows/taurus-party-birthday-set/cover.jpg"],
+    media: [],
+  },
 ];
 
 
