@@ -108,6 +108,15 @@ const SHOWS = [
     photos: ["images/shows/kshmr-support/cover.jpg"],
     media: [],
   },
+     },
+  {
+    title: "Tabor Dance",
+    venue: "Mt. Tabor",
+    city: "Portland, OR",
+    mood: "bow",
+    photos: ["images/shows/tabor-dance/cover.jpg"],
+    media: [],
+  },
   {
     title: "Sweet Girl's Club",
     venue: "Brooklyn Carretta",
