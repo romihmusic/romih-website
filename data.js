@@ -121,7 +121,7 @@ const SHOWS = [
     venue: "Brooklyn Carretta",
     city: "Portland, OR",
     mood: "bow",
-    photos: ["images/shows/sweet-girls-club/cover.jpg"],
+    photos: ["images/shows/sweet-girls-club/cover.png"],
     media: [],
   },
    {
