@@ -77,7 +77,7 @@ const SHOWS = [
     venue: "Better Days",
     city: "Portland, OR",
     mood: "bow",
-    photos: ["images/shows/sweeter-days-radio/cover.jpg"],
+    photos: ["images/shows/sweeter-days-radio/cover.png"],
     media: [
       { label: "YouTube", url: "https://youtu.be/9TY_Y5FzZR0?si=m6xnwDLsVXFcYtNY" },
     ],
@@ -175,7 +175,7 @@ const SHOWS = [
     venue: "Elevate",
     city: "Portland, OR",
     mood: "chain",
-    photos: ["images/shows/anime-k-rave/cover.jpg"],
+    photos: ["images/shows/anime-k-rave/cover.JPG"],
     media: [],
   },
 ];
