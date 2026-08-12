@@ -108,7 +108,6 @@ const SHOWS = [
     photos: ["images/shows/kshmr-support/cover.jpg"],
     media: [],
   },
-     },
   {
     title: "Tabor Dance",
     venue: "Mt. Tabor",
