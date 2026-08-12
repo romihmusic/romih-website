@@ -129,7 +129,7 @@ const SHOWS = [
     venue: "Wonderlove",
     city: "Portland, OR",
     mood: "chain",
-    photos: ["images/shows/lotus-high-speed-event/cover.jpg"],
+    photos: ["images/shows/lotus-high-speed-event/cover.png"],
     media: [
       { label: "YouTube", url: "https://youtu.be/Dw81X5UWCsM?si=1-PwzrRGJonzH8Fc" },
     ],
@@ -139,7 +139,7 @@ const SHOWS = [
     venue: "REALM",
     city: "Portland, OR",
     mood: "chain",
-    photos: ["images/shows/no-wrong-moves-halloween/cover.jpg"],
+    photos: ["images/shows/no-wrong-moves-halloween/cover.png"],
     media: [
       { label: "SoundCloud", url: "https://soundcloud.com/romihmusic/no-wrong-moves-halloween-edition-realm-2025" },
     ],
@@ -149,7 +149,7 @@ const SHOWS = [
     venue: "REALM",
     city: "Portland, OR",
     mood: "chain",
-    photos: ["images/shows/joshwa-ero808-valentines-day/cover.jpg"],
+    photos: ["images/shows/joshwa-ero808-valentines-day/cover.png"],
     media: [
       { label: "YouTube", url: "https://youtu.be/QqFRMcjR6ug?si=d5yb_nunS6tbUbvG" },
     ],
@@ -159,7 +159,7 @@ const SHOWS = [
     venue: "Airplane Home",
     city: "Hillsboro, OR",
     mood: "chain",
-    photos: ["images/shows/rave-on-a-plane/cover.jpg"],
+    photos: ["images/shows/rave-on-a-plane/cover.JPG"],
     media: [],
   },
   {
@@ -167,7 +167,7 @@ const SHOWS = [
     venue: "Wonderlove",
     city: "Portland, OR",
     mood: "chain",
-    photos: ["images/shows/taurus-party-birthday-set/cover.jpg"],
+    photos: ["images/shows/taurus-party-birthday-set/cover.JPEG"],
     media: [],
   },
   {
