@@ -170,6 +170,14 @@ const SHOWS = [
     photos: ["images/shows/taurus-party-birthday-set/cover.jpg"],
     media: [],
   },
+  {
+    title: "Anime K-Rave",
+    venue: "Elevate",
+    city: "Portland, OR",
+    mood: "chain",
+    photos: ["images/shows/anime-k-rave/cover.jpg"],
+    media: [],
+  },
 ];
 
 
